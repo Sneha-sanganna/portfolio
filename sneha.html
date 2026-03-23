@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sneha Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+
+body{
+  background:#0a0f1c;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  color:#e5e7eb;
+}
+
+.container{
+  width:900px;
+  background:#111827;
+  border-radius:12px;
+  padding:25px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.6);
+}
+
+.header{
+  text-align:center;
+  padding:15px;
+  font-weight:600;
+  border-radius:8px;
+  font-size:22px;
+  color:#38bdf8;
+  border-bottom:1px solid #1f2937;
+}
+
+.profile{
+  display:flex;
+  align-items:center;
+  margin-top:25px;
+  background:#1f2937;
+  padding:20px;
+  border-radius:10px;
+  transition:.3s;
+}
+
+.profile:hover{
+  transform:translateY(-3px);
+}
+
+.profile img{
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  margin-right:20px;
+}
+
+.profile p{
+  font-size:14px;
+  color:#9ca3af;
+}
+
+.cards{
+  display:flex;
+  gap:20px;
+  margin-top:25px;
+}
+
+.card{
+  flex:1;
+  background:#1f2937;
+  padding:30px;
+  text-align:center;
+  border-radius:10px;
+  font-weight:500;
+  transition:.3s;
+  border:1px solid #1f2937;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+  border:1px solid #38bdf8;
+}
+
+.footer{
+  margin-top:20px;
+  text-align:center;
+  color:#6b7280;
+  font-size:13px;
+}
+
+@media(max-width:768px){
+  .profile{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .profile img{
+    margin-bottom:10px;
+  }
+
+  .cards{
+    flex-direction:column;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">Sneha</div>
+
+<div class="profile">
+  <img src=>
+  <p>
+    Computer Science student focused on building practical projects and improving development skills.
+  </p>
+</div>
+
+<div class="cards">
+  <div class="card">College</div>
+  <div class="card">PU</div>
+  <div class="card">School</div>
+</div>
+
+<div class="footer">© 2026 Sneha Portfolio</div>
+
+</div>
+
+</body>
+</html>
